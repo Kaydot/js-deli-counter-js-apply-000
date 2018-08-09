@@ -9,12 +9,14 @@
  function nowServing(katzDeliLine){
   var count;
   count=0;
-  if (count < )
+  if (count < katzDeliLine.length ){
    var inline = katzDeliLine.shift();
    
    return "Currently serving "+ inline + ".";
+  }else{
   
   return "There is nobody waiting to be served!";
+  }
  }
  
  function currentLine(katzDeliLine){
