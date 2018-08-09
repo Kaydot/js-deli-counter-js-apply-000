@@ -6,6 +6,11 @@
    return "Welcome, "+ newbie +". You are number "+ count.toString() +" in line.";
  }
  
+ function takeANumberNew(){
+   
+   return `Welcome, you are number __`
+ }
+ 
  function nowServing(katzDeliLine){
   var count;
   count=0;
