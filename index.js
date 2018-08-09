@@ -7,7 +7,6 @@
  }
  
  function nowServing(katzDeliLine){
- 
   var count;
   for(count=0; count<katzDeliLine.length; count++){
    var inline = katzDeliLine.shift();
