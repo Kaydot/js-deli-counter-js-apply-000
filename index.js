@@ -7,8 +7,11 @@
  }
  
  function takeANumberNew(){
+  var count=0;
+  count++;
    
-   return `Welcome, you are number __`
+   
+   return `Welcome, you are number ` + count.toString() "."
  }
  
  function nowServing(katzDeliLine){
