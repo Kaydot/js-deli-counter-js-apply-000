@@ -5,11 +5,10 @@
    peeps.push(newbie);
    return "Welcome, "+ newbie +". You are number "+ count.toString() +" in line.";
  }
- 
+  var count=0;
  function takeANumberNew(){
   count++;
-   
-   return `Welcome, you are number ` + count.toString() "."
+   return `Welcome, you are number ` + count.toString() + ".";
  }
  
  function nowServing(katzDeliLine){
